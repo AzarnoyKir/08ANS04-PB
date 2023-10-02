@@ -27,3 +27,24 @@
 Выложите playbook в репозиторий.
 
 В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
+
+
+##### Что делает playbook
+
+Playbook производит установку следующих приложений:
+
+- Clickhouse
+- Nginx
+- Vector
+- Lighthouse
+
+##### Параметры
+
+настройки хостов :
+
+- inventory/prod.yml
+
+Vector role - https://github.com/AzarnoyKir/08ANS04-vector-role
+lighthouse role - https://github.com/AzarnoyKir/08ANS04-lgh-role
+
+  
